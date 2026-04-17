@@ -15,21 +15,21 @@ const totalTime = document.getElementById("total-time")
 
 
 const bebiMinhaBicicleta = {
-    songName : "Bebi Minha Bicicleta",
-    artist : "Zé Neto e Cristiano",
-    file : "Bebi minha Bicicleta",
+    songName: "Bebi Minha Bicicleta",
+    artist: "Zé Neto e Cristiano",
+    file: "bebi-minha-bicicleta",
     liked: false,
 };
 const mulherMaravilha = {
     songName : "Mulher Maravilha",
     artist : "Zé Neto e Cristiano",
-    file : "Mulher Maravilha",
+    file : "mulher-maravilha",
     liked: false,
 };
 const notificacaoPreferida = {
     songName : "Notificação Preferida",
     artist : "Zé Neto e Cristiano",
-    file : "Notificação Preferida",
+    file : "notificacao-preferida",
     liked: false,
 };
 
