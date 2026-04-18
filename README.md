@@ -1,41 +1,71 @@
-# 🌐 Projeto Desenvolvimento Web  – Streaming Musical
+# 🎵 Music Player Web App
 
-Este repositório apresenta um projeto de desenvolvimento web voltado à criação de uma aplicação de streaming musical, inspirada no Spotify, desenvolvido com fins educacionais e de aprendizagem prática.
+Aplicação de player de música desenvolvida com **HTML, CSS e JavaScript puro**, simulando funcionalidades básicas de um player de streaming.
 
-O projeto foi utilizado como meio para compreender a estrutura, organização e funcionamento básico de uma aplicação web voltada ao consumo de mídia, explorando conceitos de interface, navegação, estilização e interação com o usuário no contexto do front-end.
+O projeto foi publicado via **GitHub Pages**.
 
-## Objetivo
+🔗 Acesse a demo: https://paulorochaxx.github.io/desenvolvimentoweb/
 
-Desenvolver uma aplicação web de streaming musical inspirada no Spotify, com foco na prática dos fundamentos do desenvolvimento web, incluindo a estruturação de páginas, a construção de interfaces visuais, a manipulação de eventos com JavaScript e a organização do código.
+---
 
-## Tecnologias utilizadas
+## 🚀 Funcionalidades
 
-- HTML5  
-- CSS3  
-- JavaScript  
-- Git e GitHub  
-- Visual Studio Code (VS Code)
+- ▶️ Play / Pause de músicas
+- ⏭️ Próxima e música anterior
+- 🔀 Modo shuffle (embaralhar playlist)
+- 🔁 Repetição de música
+- ❤️ Sistema de "like" (favoritar faixa)
+- 📊 Barra de progresso sincronizada com o áudio
+- ⏱️ Controle e exibição de tempo da música
+- 🖼️ Exibição dinâmica da capa da música
 
-## Conteúdo do repositório
+---
 
-- Estrutura de páginas inspiradas em plataformas de streaming musical  
-- Layout e organização de interface semelhantes a serviços de música online  
-- Estilização de componentes visuais, como menus, listas e seções  
-- Implementações iniciais de interação utilizando JavaScript  
+## 🛠️ Tecnologias utilizadas
 
-## Como utilizar o projeto
+- HTML5
+- CSS3
+- JavaScript (Vanilla JS)
+- GitHub Pages (deploy)
 
-Para utilizar o projeto, é necessário realizar o clone ou download do repositório e abrir a pasta do projeto no **Visual Studio Code (VS Code)**, ambiente utilizado durante o desenvolvimento.
+---
+```text
+## 📁 Estrutura do projeto
 
-A execução ocorre a partir do VS Code, permitindo a abertura dos arquivos HTML no navegador ou o uso de extensões que auxiliam na visualização e nos testes da aplicação, como o Live Server.
+/imagens → capas das músicas
+/songs → arquivos de áudio
+index.html → interface principal
+style.css → estilos
+script.js → lógica do player
 
-Os arquivos podem ser livremente editados para experimentação, ajustes de layout e compreensão da lógica aplicada ao projeto.
+```
+---
 
-## Produto Final
+## 📌 Aprendizados
 
-https://paulorochaxx.github.io/desenvolvimentoweb/
+Este projeto foi desenvolvido para praticar:
 
-## Autor
+- Manipulação do DOM
+- Controle de áudio com JavaScript
+- Eventos em tempo real (`timeupdate`, `ended`, etc.)
+- Estruturação de UI sem frameworks
+- Publicação de site estático com GitHub Pages
 
-**Paulo Rocha**  
-GitHub: https://github.com/PauloRochaXx
+---
+
+## ⚠️ Observação
+
+Este projeto não utiliza frameworks ou bibliotecas externas de frontend — foi construído inteiramente com tecnologias base da web.
+
+---
+
+## 📷 Preview
+
+<img width="509" height="604" alt="17764790542714788305780205337631" src="https://github.com/user-attachments/assets/52083bcd-15ba-410b-872a-91ceef2eec22" />
+
+
+---
+
+## 📌 Referência
+Perfil GitHub:
+https://github.com/PauloRochaXx
