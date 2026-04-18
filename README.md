@@ -31,9 +31,9 @@ A execução ocorre a partir do VS Code, permitindo a abertura dos arquivos HTML
 
 Os arquivos podem ser livremente editados para experimentação, ajustes de layout e compreensão da lógica aplicada ao projeto.
 
-## Observações
+## Produto Final
 
-Este projeto possui caráter educacional e reflete um processo de aprendizagem contínuo. O código pode ser aprimorado, reorganizado e expandido com novas funcionalidades e boas práticas de desenvolvimento web.
+https://paulorochaxx.github.io/desenvolvimentoweb/
 
 ## Autor
 
