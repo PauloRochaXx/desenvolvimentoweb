@@ -1,3 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 body {
     background-image: linear-gradient(rgb(59, 88, 93), rgb(29, 40, 42));
     height: 100vh;
@@ -10,19 +19,21 @@ body {
     padding: 0;
 }
 
+/* BOTÕES */
 button {
     background-color: inherit;
     color: inherit;
     border: none;
 }
 
-
+/* CONTAINER PRINCIPAL */
 .music-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
     max-width: 450px;
+    margin: 0 auto;
     padding: 10px;
 }
 
@@ -34,13 +45,14 @@ button {
     text-align: center;
 }
 
-/* CAPA DO ÁLBUM */
+/* CAPA */
 #cover {
     width: 100%;
-    max-width: 450px;
+    max-width: 100%;
+    display: block;
 }
 
-/* INFORMAÇÕES DA MÚSICA */
+/* INFORMAÇÕES */
 #song-name {
     font-size: 1.5em;
     font-weight: bolder;
@@ -50,7 +62,7 @@ button {
     color: rgb(139, 153, 156);
 }
 
-/* PARTE DE BAIXO (LIKE + INFO) */
+/* PARTE DE CIMA (INFO + LIKE) */
 #below-cover {
     display: flex;
     flex-direction: row;
@@ -60,7 +72,7 @@ button {
     width: 100%;
 }
 
-/* PROGRESS BAR */
+/* BARRA DE PROGRESSO */
 #progress-bar {
     background-color: rgb(139, 153, 156);
     height: 3px;
@@ -118,21 +130,13 @@ button {
 }
 
 /* ========================= */
-/* 📱 RESPONSIVIDADE MOBILE */
+/* 📱 MOBILE FIX DEFINITIVO */
 /* ========================= */
 
 @media (max-width: 768px) {
 
-    body {
-        padding: 10px;
-    }
-
     .music-container {
         max-width: 350px;
-    }
-
-    #cover {
-        max-width: 280px;
     }
 
     #playlist-title {
@@ -142,6 +146,10 @@ button {
 
     #song-name {
         font-size: 1.2em;
+    }
+
+    #cover {
+        max-width: 100%;
     }
 
     #button-container {
