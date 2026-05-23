@@ -55,7 +55,7 @@ Este projeto foi desenvolvido para praticar:
 
 ## ⚠️ Observação
 
-Este projeto não utiliza frameworks ou bibliotecas externas de frontend — foi construído inteiramente com tecnologias base da web.
+Este projeto não utiliza frameworks ou bibliotecas externas de frontend — foi construído inteiramente com tecnologias base da web
 
 ---
 
